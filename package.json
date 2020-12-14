@@ -28,7 +28,9 @@
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:images": "onchange \"src/images\" -- run-s build:images",
     "watch": "run-p serve watch:*",
-    "postinstall": "run-s build watch"
+    "postinstall": "run-s build watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
@@ -39,6 +41,7 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
+    "gh-pages": "^3.1.0",
     "imagemin-cli": "^3.0.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.9.2",
@@ -49,6 +52,6 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/laurel#readme",
+  "homepage": "https://nsarullo.github.io/portfolio/",
   "main": ".eslintrc.js"
 }
