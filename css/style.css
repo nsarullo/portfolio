@@ -2552,10 +2552,20 @@ textarea.form-input {
     .flex-change {
         flex-direction: row;
     }
+    .my-header{
+        display:flex;
+        padding-top:14%;
+        padding-left:12%;
+    }
 }
 @media (max-width: 600px) {
     .flex-change {
         flex-direction: column;
+    }
+    .my-header{
+        display:flex;
+        padding-top:14%;
+        padding-left:4%;
     }
 }
 
