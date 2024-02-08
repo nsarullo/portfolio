@@ -2581,6 +2581,12 @@ textarea.form-input {
     }
 }
 
+@media (max-width: 393px) {
+    .move-lower{
+        margin-bottom: .2rem;
+    }
+}
+
 @media (min-width: 641px) {
     .site-footer-inner {
         padding: 64px 0
