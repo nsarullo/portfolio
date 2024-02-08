@@ -2558,7 +2558,7 @@ textarea.form-input {
         padding-left:12%;
     }
     .no-show-xs{
-        display:contents; 
+        /* display:contents;  */
     }
     .move-lower{
         margin-bottom: 0rem;
