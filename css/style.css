@@ -2557,6 +2557,12 @@ textarea.form-input {
         padding-top:14%;
         padding-left:12%;
     }
+    .no-show-xs{
+        display:contents; 
+    }
+    .move-lower{
+        margin-bottom: 0rem;
+    }
 }
 @media (max-width: 600px) {
     .flex-change {
@@ -2566,6 +2572,12 @@ textarea.form-input {
         display:flex;
         padding-top:14%;
         padding-left:4%;
+    }
+    .no-show-xs{
+        display: none;
+    }
+    .move-lower{
+        margin-bottom: 1.8rem;
     }
 }
 
