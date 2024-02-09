@@ -2579,6 +2579,9 @@ textarea.form-input {
     .move-lower{
         margin-bottom: 1.8rem;
     }
+    .site-header+.site-content .section:first-of-type {
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 393px) {
