@@ -30,7 +30,7 @@ export default function Header() {
             Nick Sarullo
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center justify-center">
-            Frontend engineer at
+            Founding engineer at
             <Link href="https://nuvoscre.com" target="_blank" rel="noopener noreferrer">
               <Image
                 src={nuvosNavyLongLogoSVG}
