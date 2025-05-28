@@ -95,7 +95,7 @@ export default function Experience() {
       date: "Feb 2022 - Nov 2022",
       location: "Northridge, CA",
       description:
-        "Taught programming fundamentals including data structures, logic, and conditionals across Java, JavaScript, Python, Lua using Unity and Roblox Studio for game development projects",
+        "Taught programming fundamentals including data structures, logic, and conditionals across Java, JavaScript, Python, Lua using Unity and Roblox Studio for game development projects.",
     },
   ];
 
