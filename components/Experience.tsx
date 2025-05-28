@@ -109,7 +109,7 @@ export default function Experience() {
           <article
             key={index}
             className={`p-5 rounded-xl relative overflow-hidden ${index === 0
-                ? "border-2 border-[#2e70ef] shadow-lg shadow-[#2e70ef]/20 group cursor-pointer"
+                ? "border-2 border-[#2e70ef] shadow-lg shadow-[#2e70ef]/20 group"
                 : "odd:bg-linear-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-linear-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]"
               }`}
             onMouseMove={index === 0 ? handleMouseMove : undefined}
