@@ -21,7 +21,7 @@ const Svg2 = () => (
     height="16"
     viewBox="0 0 24 24"
   >
-    <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+    <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
   </svg>
 );
 
@@ -45,7 +45,7 @@ const Svg4 = () => (
     height="16"
     viewBox="0 0 24 24"
   >
-    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
   </svg>
 );
 
@@ -86,7 +86,7 @@ export default function Experience() {
       date: "May 2017 - Jul 2023",
       location: "Los Angeles, CA",
       description:
-        "Developed comprehensive CS curriculum from scratch for 200+ middle school students after emergency placement and led several technical projects.",
+        "Built custom cloud infrastructure utilizing Netgear ReadyShare, maintaining 99.9% uptime across multiple office branches via HTTPS/FTP connectivity.",
     },
     {
       title: "Lead Instructor at Code Ninjas",
@@ -95,7 +95,7 @@ export default function Experience() {
       date: "Feb 2022 - Nov 2022",
       location: "Northridge, CA",
       description:
-        "Taught programming fundamentals including data structures, logic, and conditionals across Java, JavaScript, Python, Lua using Unity and Roblox Studio for game development projects.",
+        "Taught programming fundamentals including data structures, logic, and conditionals across Java, JavaScript, Python, and Lua using Unity and Roblox Studio for game development projects.",
     },
   ];
 
@@ -108,11 +108,10 @@ export default function Experience() {
         {items.map((item, index) => (
           <article
             key={index}
-            className={`p-5 rounded-xl relative overflow-hidden ${
-              index === 0
+            className={`p-5 rounded-xl relative overflow-hidden ${index === 0
                 ? "border-2 border-[#2e70ef] shadow-lg shadow-[#2e70ef]/20 group cursor-pointer"
                 : "odd:bg-linear-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-linear-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]"
-            }`}
+              }`}
             onMouseMove={index === 0 ? handleMouseMove : undefined}
           >
             {index === 0 && (
