@@ -1,6 +1,7 @@
 import ThemeToggle from "./theme-toggle";
 import Image from "next/image";
 import UserImg from "@/public/images/nickSarulloLarge.jpg";
+import UserImg2 from "@/public/images/nickSarulloLarge2.jpg";
 import nuvosWhiteLongLogoSVG from "@/public/images/nuvos_logo_white_long.svg";
 import nuvosNavyLongLogoSVG from "@/public/images/blueNavyLong.svg";
 import LinkedInSVG from "@/public/images/linkedin.svg"
@@ -17,11 +18,18 @@ export default function Header() {
       {/* Intro */}
       <div className="mb-10">
         <Image
-          className="inline-flex rounded-full shadow-lg mb-4"
+          className="inline-flex rounded-full shadow-lg mb-4 dark:hidden"
           src={UserImg}
           width={48}
           height={48}
-          
+          alt="Nick Sarullo"
+          priority
+        />
+        <Image
+          className="hidden dark:inline-flex rounded-full shadow-lg mb-4"
+          src={UserImg2}
+          width={48}
+          height={48}
           alt="Nick Sarullo"
           priority
         />

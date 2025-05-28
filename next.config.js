@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/portfolio',
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
   images: {
     unoptimized: true
   }
